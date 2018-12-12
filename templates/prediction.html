@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Qualite - Air Pollution Detection & Prediction</title>
+    <meta charset="utf-8" />
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../static/css/footer.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid" style="padding-top:75px">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-dark fixed-top" style="background-color:darkcyan">
+            <a class="navbar-brand" href="{{url_for('options')}}">Qualite&trade;</a>
+        </nav>
+        <!-- Navbar End -->
+        <h1 style="color:lightseagreen">Enter a date</h1>
+        <!-- Form Start -->
+        <form action="" method="post">
+            <div class="form-group">
+                <label for="day">Day</label>
+                <input type="number" class="form-control" id="day" placeholder="Day of month" name="day">
+            </div>
+            <div class="form-group">
+                <label for="month">Month</label>
+                <input type="number" class="form-control" id="month" placeholder="Month" name="month">
+            </div>
+            <div class="form-group">
+                <label for="year">Year</label>
+                <input type="number" class="form-control" id="year" placeholder="Year" name="year">
+            </div>
+            <center><button type="submit" class="btn btn-lg btn-info">Submit</button>
+                    <button type="reset" class="btn btn-lg btn-info">Clear</button></center>
+        </form>
+        <br>
+        <!-- Form End -->
+        <!-- Footer start -->
+        <section id="footer">
+            <div class="container">
+                <div class="row text-center text-xs-center text-sm-left text-md-left">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Quick links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                        <ul class="list-unstyled list-inline social text-center">
+                            <li class="list-inline-item"><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="list-inline-item"><a href="https://mail.google.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                        <p class="h6">&copy All Rights Reserved.<a class="text-green ml-2" href="index.html" target="_blank">Qualite&trade;</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer End -->
+    </div>
+</body>
+</html>
